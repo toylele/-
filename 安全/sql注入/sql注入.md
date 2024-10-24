@@ -53,7 +53,7 @@
        http:/127.0.0.1/sqli-labs-master/Less-1/?id=-1' union select 1,2,load file('E:/phpstudy/PHPTutorial/www/sqi-labs-master/Less- 1/index.php”) %23
        ```
 
-   ​	![image-20240927103706117](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20240927103706117.png)
+   ​	![image-20240927103706117](/typora-user-images/image-20240927103706117.png)
 
    2. 写入文件into outfile();
 
@@ -140,7 +140,7 @@ http:/127.0.0.1/sqli-labs-master/Less-1/?id=-1' union select 1,2,load file('E:/p
    #连接后的选项说明
    ```
 
-   ![image-20240929094436361](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20240929094436361.png)
+   ![image-20240929094436361](/typora-user-images/image-20240929094436361.png)
 
 3. 开始扫描
 
