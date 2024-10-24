@@ -12,7 +12,7 @@
 
 ​	XSS换句话说，JavaScript能做到什么效果，XSS的胃里就有多大。这完全不是危言耸听。javascript可以用来获取用户的cookie，弹出窗口，那么存在XSS漏洞的网站，XSS就可以用来盗取用户Cookie,废掉页面，导航到恶意网站!更高端的XSS代码完全可以进行监控你的键盘操作，模仿Windows注销界面，诱导你输入开机密码!而攻击者需要做的仅仅是向你的代码中注入Javascript代码!
 
-![image-20241023102536039](\typora-user-images\image-20241023102536039.png)https://github.com/toylele/-/blob/e2065d4ffe42b9e16acd4881d47bbfc6f469a0db/typora-user-images/image-20240926140328894.png
+![image-20241023102536039](/typora-user-images/image-20241023102536039.png)
 XSS的重点不在于跨站点，而在于脚本的执行。那么XSS的原理是:
 
 ​	恶意攻击者在web页面中会插入一些恶意的script代码当用户浏览该页面的时候，那么嵌入到web页面中script代码会执行，因此会达到恶意攻击用户的目的。那么攻击最主要有如下分类:反射型、存储型、及DOM-based型。反射性和DOM-baseed型可以归类为非持久性XSS攻击。存储型可以归类为持久性XSS攻击。
